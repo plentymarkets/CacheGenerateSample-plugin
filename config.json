@@ -1,0 +1,116 @@
+{
+  "formatVersion": 1.0,
+  "menu": {
+    "global": {
+      "label": "Config.global",
+      "fullWidth": true,
+      "formFields": {
+        "config.inputFile": {
+          "type": "inputFile",
+          "required": false,
+          "label": "inputFile"
+        },
+        "config.inputText": {
+          "type": "inputText",
+          "required": false,
+          "label": "inputText"
+        },
+        "config.inputPassword": {
+          "type": "inputText",
+          "options": {
+            "isPassword": true
+          },
+          "required": false,
+          "label": "inputPassword"
+        },
+        "config.inputTextArea": {
+          "type": "inputTextArea",
+          "required": false,
+          "label": "inputTextArea"
+        },
+        "config.inputNumber": {
+          "type": "inputNumber",
+          "required": false,
+          "label": "inputNumber"
+        },
+        "config.inputDouble": {
+          "type": "inputDouble",
+          "required": false,
+          "label": "inputDouble"
+        },
+        "config.categoryPicker": {
+          "type": "categoryPicker",
+          "required": false,
+          "label": "categoryPicker"
+        },
+        "config.colorPicker": {
+          "type": "colorPicker",
+          "required": false,
+          "label": "colorPicker"
+        },
+        "config.datePicker": {
+          "type": "datePicker",
+          "required": false,
+          "label": "datePicker"
+        },
+        "config.checkBox": {
+          "type": "checkBox",
+          "required": false,
+          "label": "checkBox"
+        },
+        "config.selectBox": {
+          "type": "selectBox",
+          "required": false,
+          "label": "selectBox",
+          "options": {
+            "defaultValue": "option1",
+            "selectBoxValues": [
+              {
+                "value": "option1",
+                "caption": "option1"
+              },
+              {
+                "value": "option2",
+                "caption": "option2"
+              },
+              {
+                "value": "option3",
+                "caption": "option3"
+              },
+              {
+                "value": "option4",
+                "caption": "option4"
+              }
+            ]
+          }
+        },
+        "config.multiCheckBox": {
+          "type": "multiCheckBox",
+          "required": false,
+          "label": "multiCheckBox",
+          "options": {
+            "checkBoxValues": [
+              {
+                "value": "de",
+                "caption": "Config.languageGerman"
+              },
+              {
+                "value": "en",
+                "caption": "Config.languageEnglish"
+              },
+              {
+                "value": "fr",
+                "caption": "Config.languageFrench"
+              },
+              {
+                "value": "es",
+                "caption": "Config.languageSpanish"
+              }
+            ]
+          }
+        }
+
+      }
+    }
+  }
+}

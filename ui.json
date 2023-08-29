@@ -1,0 +1,12 @@
+{
+  "defaultEntryPoint": "index.html",
+  "namespace": "MyFirstView",
+  "menuEntries": [
+    {
+      "label": "Hello World",
+      "menu": "crm",
+      "urlKey": "hello",
+      "entryPoint": "index.html"
+    }
+  ]
+}

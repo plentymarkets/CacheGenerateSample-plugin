@@ -1,0 +1,13 @@
+{
+      "name":"CacheGenerateSample",
+      "version": "0.0.1",
+      "description":"Test Config",
+      "namespace":"CacheGenerateSample",
+      "author":"Cristi C",
+      "type":"template",
+      "serviceProvider":"CacheGenerateSample\\Providers\\CacheGenerateSampleServiceProvider",
+      "runOnBuild"        :[
+            "CacheGenerateSample\\Migrations\\CreateLogTable",
+            "CacheGenerateSample\\Migrations\\CreateFailedMigration"
+      ]
+}
