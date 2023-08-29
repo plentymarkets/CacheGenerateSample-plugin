@@ -15,8 +15,8 @@ class CacheGenerateSampleRouteServiceProvider extends RouteServiceProvider
 	 */
 	public function map(Router $router)
 	{
-        $router->get('redis', 'CacheGenerateSample\Controllers\ContentController@generate');
-        $router->get('mysql', 'LogGenerateSample\Controllers\ContentController@mysqlInsert');
+        $router->get('redis', 'CacheGenerateSample\Controllers\ContentController@generateCache');
+        $router->get('logs', 'LogGenerateSample\Controllers\ContentController@generateLogs');
 
 	}
 

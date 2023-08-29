@@ -12,7 +12,7 @@ use Plenty\Plugin\Http\Request;
  */
 class ContentController extends Controller
 {
-    public function generate(Request $request)
+    public function generateCache(Request $request)
     {
         /** @var CacheRepository $cacheRepo */
         $cacheRepo = pluginApp(CacheRepository::class);
@@ -21,7 +21,7 @@ class ContentController extends Controller
         return json_encode($entries);
     }
 
-    public function mysqlInsert(Request $request)
+    public function generateLogs(Request $request)
     {
         /** @var LogRepository $logRepo */
         $logRepo = pluginApp(LogRepository::class);
