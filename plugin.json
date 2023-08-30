@@ -5,6 +5,5 @@
       "namespace":"CacheGenerateSample",
       "author":"Cristi C",
       "type":"template",
-      "serviceProvider":"CacheGenerateSample\\Providers\\CacheGenerateSampleServiceProvider",
-
+      "serviceProvider":"CacheGenerateSample\\Providers\\CacheGenerateSampleServiceProvider"
 }
