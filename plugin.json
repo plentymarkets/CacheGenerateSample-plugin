@@ -6,8 +6,5 @@
       "author":"Cristi C",
       "type":"template",
       "serviceProvider":"CacheGenerateSample\\Providers\\CacheGenerateSampleServiceProvider",
-      "runOnBuild"        :[
-            "CacheGenerateSample\\Migrations\\CreateLogTable",
-            "CacheGenerateSample\\Migrations\\CreateFailedMigration"
-      ]
+
 }
